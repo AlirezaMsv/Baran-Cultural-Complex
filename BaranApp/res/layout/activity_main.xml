@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+    <EditText
+        android:hint="@string/kodehint"
+        android:inputType="number"
+        android:id="@+id/edloginkode"
+        android:autofillHints="username"
+        style="@style/edstyle" />
+    <EditText
+        android:hint="@string/passwordhint"
+        android:inputType="textPassword"
+        android:id="@+id/edloginpass"
+        android:autofillHints="password"
+        style="@style/edstyle" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/login"
+        android:onClick="loginvoid"
+        android:background="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/register"
+        android:background="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:onClick="gotoregistercoach"
+        android:layout_gravity="end"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"/>
+</LinearLayout>

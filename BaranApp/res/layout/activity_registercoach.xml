@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".RegisterCoach">
+    <EditText
+        android:hint="@string/namehint"
+        android:inputType="text"
+        android:id="@+id/edregistername"
+        android:autofillHints="name"
+        style="@style/edstyle" />
+    <EditText
+        android:hint="@string/kodehint"
+        android:inputType="number"
+        android:id="@+id/edregisterkode"
+        android:autofillHints="username"
+        style="@style/edstyle" />
+    <EditText
+        style="@style/edstyle"
+        android:inputType="textPassword"
+        android:autofillHints="@string/passwordhint"
+        android:id="@+id/edregisterpass"
+        android:hint="@string/passwordhint"/>
+    <EditText
+        android:hint="@string/phonehint"
+        android:inputType="phone"
+        android:id="@+id/edregisterphone"
+        android:autofillHints="phone"
+        style="@style/edstyle" />
+        <!--android:id="@+id/edregisterpass"-->
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/edstyle"
+        android:id="@+id/sprescoach"
+        android:entries="@array/rescoach"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/register"
+        android:background="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:onClick="register"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"/>
+</LinearLayout>

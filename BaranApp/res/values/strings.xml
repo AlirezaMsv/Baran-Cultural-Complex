@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">باران</string>
+    <string name="login">ورود</string>
+    <string name="register">ثبت نام</string>
+    <string name="kodehint">کد ملی</string>
+    <string name="phonehint">شماره تماس</string>
+    <string name="passwordhint">رمز عبور</string>
+    <string name="namehint">نام و نام خانوادگی</string>
+    <string name="profile">profile</string>
+    <string name="takephoto">تغییر عکس</string>
+    <string name="firstnamehint">نام</string>
+    <string name="lastnamehint">نام خانوادگی</string>
+    <string name="birthdate">تاریخ تولد</string>
+    <string name="yearhint">سال</string>
+    <string name="monthhint">ماه</string>
+    <string name="birthdayhint">روز</string>
+    <string name="phonenumhint">شماره همراه</string>
+    <string name="homenumhint">شماره منزل</string>
+    <string name="dadnumhint">شماره پدر</string>
+    <string name="jobhint">شغل</string>
+    <string name="gradehint">مقطع تحصیلی</string>
+    <string name="reshtehint">رشته تحصیلی</string>
+    <string name="eduplacehint">محل تحصیل</string>
+    <string name="addresshint">آدرس منزل</string>
+    <string name="heyAt">هیأت کربلا</string>
+    <string name="shakhe">شاخه</string>
+    <string name="family">خانواده ها</string>
+    <string name="join">عضویت:</string>
+    <string name="coachhint">مربی</string>
+    <string name="reshint">مسئولیت</string>
+    <string name="joindate">تاریخ عضویت</string>
+    <string name="familycome">اعضای خانواده که می آیند</string>
+    <string name="whoinvitesu">به دعوت چه کسی عضو باران شدید</string>
+    <string name="invitenum">چند نفر به باران دعوت کرده اید</string>
+    <string name="ability">توانایی ها</string>
+    <string name="football">فوتبال</string>
+    <string name="volleyball">والیبال</string>
+    <string name="basketball">بسکتبال</string>
+    <string name="pingpong">پینگ پونگ</string>
+    <string name="readquran">قرائت قرآن</string>
+    <string name="memoriza">حفظ قرآن و احادیث</string>
+    <string name="computer">فعالیت های کامپیوتری</string>
+    <string name="sing">آواز</string>
+    <string name="art">فعالیت های هنری</string>
+    <string name="photography">عکاسی و فیلمبرداری</string>
+    <string name="other">سایر فعالیت ها</string>
+    <string name="active">شبکه های اجتماعی فعال</string>
+    <string name="insta">اینستاگرام</string>
+    <string name="telegram">تلگرام</string>
+    <string name="whatsapp">واتساپ</string>
+    <string name="rubika">روبیکا</string>
+    <string name="soroush">سروش</string>
+    <string name="facebook">فیس بوک</string>
+    <string name="ita">ایتا</string>
+    <string name="tweeter">توییتر</string>
+    <string name="bale">بله</string>
+    <string name="describe">توضیحات</string>
+    <string name="cancel">انصراف</string>
+    <string name="list">لیست</string>
+    <string name="show">نمایش</string>
+    <string name="engname">name</string>
+    <string-array name="rescoach">
+        <item>سرگروه</item>
+        <item>ثبت نام و حضور و غیاب</item>
+        <item>برگزاری مسابقه</item>
+        <item>جمعه بازار</item>
+        <item>ارتباظات</item>
+    </string-array>
+    <string-array name="job">
+        <item>دانش آموز</item>
+        <item>دانشجو</item>
+        <item>طلبه</item>
+        <item>سرباز</item>
+        <item>شاغل</item>
+    </string-array>
+    <string-array name="listgroup">
+        <item>همه</item>
+        <item>هیات کربلا</item>
+        <item>شاخه</item>
+        <item>خانواده ها</item>
+    </string-array>
+    <string name="title_activity_meetings">MeetingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="meetinglistandappsent">لیست جلسات و حضور و غیاب</string>
+    <string name="calender">تقویم</string>
+    <string name="date">تاریخ</string>
+    <string name="create">تشکیل</string>
+    <string name="coachnum">تعداد سرگروه ها</string>
+    <string name="clientnum">تعداد کاربران</string>
+    <string name="prenum">تعداد حضور</string>
+    <string name="appnum">تعداد غیبت</string>
+    <string name="edit">ویرایش</string>
+    <string name="age">سن</string>
+    <string name="appsentdates">تاریخ غیبت ها</string>
+    <string name="presentdates">تاریخ حاضرها</string>
+    <string name="noinformation">داده ای برای نمایش وجود ندارد</string>
+    <string name="done">اعمال</string>
+    <string name="appsent">غایب</string>
+    <string name="present">حاضر</string>
+    <string name="search">جست و جو</string>
+    <string name="cancelfilter">انصراف و حذف همه فیلترها</string>
+</resources>
